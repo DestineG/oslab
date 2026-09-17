@@ -1,0 +1,11 @@
+megs: 32
+
+romimage: file="D:/Program Files/Bochs-3.1/BIOS-bochs-latest"
+vgaromimage: file="D:/Program Files/Bochs-3.1/VGABIOS-lgpl-latest.bin"
+
+floppya: 1_44="D:/Projects/oslab/image/boot.img", status=inserted
+boot: floppy
+
+log: "D:/Projects/oslab/build/bochs.log"
+
+display_library: win32
